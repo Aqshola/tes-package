@@ -1,5 +1,5 @@
-import * as inqAccount from "./inquiryAccount";
-import * as inqCustomer from "./inquiryCustomer";
+import inqAccount from "./inquiryAccount";
+import inqCustomer from "./inquiryCustomer";
 
 const inquiry = {
   inqAccount,
