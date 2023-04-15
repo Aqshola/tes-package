@@ -1,0 +1,22 @@
+{
+  "name": "@aqshol/tespack",
+  "version": "1.0.0",
+  "description": "Coba belajar",
+  "main": "index.js",
+  "author": "aqshol",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "npx babel src --watch --out-dir ./",
+    "build": "npx babel src --out-dir ./"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-transform-modules-umd": "^7.18.6",
+    "@babel/preset-env": "^7.21.4"
+  }
+}
